@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Happy Birthday, Sayang! 🎉</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <style>
         body {
             text-align: center;
@@ -49,6 +50,11 @@
             border-radius: 10px;
             margin-top: 15px;
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: scale(0.9); }
+            to { opacity: 1; transform: scale(1); }
         }
     </style>
 </head>
@@ -58,14 +64,14 @@
         <p>Hari ini adalah hari spesial karena kamu lahir ke dunia. Aku bersyukur bisa bertemu dan menjalankan semuanya bersamamu. Semoga Allah selalu memudahkan jalan dan rezekimu. ❤️</p>
         <p class="heart">💖💖💖</p>
         <p>Semoga semua impian dan harapanmu tercapai. Aku akan selalu ada untukmu! 🎁</p>
-        <a class="btn" href="https://open.spotify.com/playlist/xxx" target="_blank">Klik untuk Playlist Spesial 🎶</a>
+        <a class="btn" href="https://open.spotify.com/track/4OBZT9EnhYIV17t4pGw7ig?si=33d5b806fd2f402f" target="_blank">Klik untuk Playlist Spesial 🎶</a>
         <div class="music">
             <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4OBZT9EnhYIV17t4pGw7ig?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </div>
         <div class="images">
-            <img src="WhatsApp Image 2025-03-27 at 07.13.36.jpeg" alt="Foto 1">
-            <img src="WhatsApp Image 2025-03-27 at 07.13.52.jpeg" alt="Foto 2">
-            <img src="WhatsApp Image 2025-03-27 at 07.14.01.jpeg" alt="Foto 3">
+            <img src="foto1.jpg" alt="Foto 1">
+            <img src="foto2.jpg" alt="Foto 2">
+            <img src="foto3.jpg" alt="Foto 3">
         </div>
     </div>
 </body>
